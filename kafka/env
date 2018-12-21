@@ -1,0 +1,2 @@
+KAFKA_OPTS="$KAFKA_OPTS -javaagent:/usr/local/kafka/libs/jmx_prometheus_javaagent-0.10.jar=7071:/usr/local/kafka/config/kafka.yaml"
+KAFKA_HEAP_OPTS="-Xmx3G -Xms3G"
